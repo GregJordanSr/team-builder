@@ -3,12 +3,11 @@ import TeamMember from '../TeamMember/TeamMember';
 import  {teaminfo}  from '../../TeamInfo';
 
 const TeamMemberList = () => {
-    const [players, setPlayers] = useState(teaminfo)
-        console.log('teamInfo', teaminfo)
+    const [employees, setEmployees] = useState(teaminfo)
     return (
         <div>
-            {players.map( (player, i) => {
-                return <TeamMember player={player} id={i} />
+            {employees.map( (employee, i) => {
+                return <TeamMember employee={employee} id={i} />
             })}
         
         </div>

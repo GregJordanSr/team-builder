@@ -1,10 +1,12 @@
 import React from 'react'
 
 const TeamMember = props => {
-  console.log('Team', props)
+  console.log('Team Player', props)
   return (
     <div>
-      <h1>{props.player.first_name}</h1>
+      <p>{props.employee.name}</p>
+      <p>{props.employee.email}</p>
+      <p>{props.employee.position}</p>
     </div>
   )
 }

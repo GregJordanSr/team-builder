@@ -1,36 +1,36 @@
 export const teaminfo = [
     {
-        first_name: "Josh",
-        last_name: "Richardson",
-        position: "Small Forward"
+        name: "Josh Richardson",
+        email: "Josh@gmail.com",
+        position: "UX Designer"
 
     },
 
     {
-        first_name: "Ben",
-        last_name: "Simmons",
-        position: "Power Forward"
+        name: "Ben Simmons",
+        email: "Simmons@gmail.com",
+        position: "Power CEO"
 
     },
 
     {
-        first_name: "Tobias",
-        last_name: "Harris",
-        position: "Small Forward"
+        name: "Tobias Harris",
+        email: "Harris@gmail.com",
+        position: "Small Developer"
 
     },
 
     {
-        first_name: "Joel",
-        last_name: "Embid",
-        position: "Center"
+        name: "Joel Embid",
+        email: "Embid@gmail.com",
+        position: "Senior Developer"
 
     },
 
     {
-        first_name: "Kyle",
-        last_name: "O' Quinn",
-        position: "Center"
+        name: "Kyle O' Quinn",
+        email: "O_Quinn@gmail.com",
+        position: "Senior Developer"
 
     }
 ]
