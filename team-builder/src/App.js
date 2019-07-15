@@ -1,6 +1,6 @@
 import React, {  useState } from 'react';
 import './App.css';
-import TeamMembers from './Components/TeamMember/TeamMember';
+import TeamMemberList from './Components/TeamMemberList/TeamMemberList';
 
 const App = props => {
   const [teamMember, setTeamMember] = useState('')
@@ -8,7 +8,7 @@ const App = props => {
 
   return (
     <div className="App">
-        <TeamMembers  />
+        <TeamMemberList  />
     </div>
   )
 }

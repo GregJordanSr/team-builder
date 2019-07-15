@@ -1,11 +1,11 @@
 import React from 'react'
 
-const TeamMembers = props => {
+const TeamMember = props => {
   console.log('Team', props)
   return (
     <div>
-      <h1>{props.first_name}</h1>
+      <h1>{props.player.first_name}</h1>
     </div>
   )
 }
- export default TeamMembers;
+ export default TeamMember;
