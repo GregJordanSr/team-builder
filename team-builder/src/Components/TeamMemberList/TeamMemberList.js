@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import TeamMember from '../TeamMember/TeamMember';
-import  {teaminfo}  from '../../TeamInfo';
 
-const TeamMemberList = () => {
-    const [employees, setEmployees] = useState(teaminfo)
+
+const TeamMemberList = props => {
+   
     return (
         <div>
-            {employees.map( (employee, i) => {
+            {props.teamEmployee.map( (employee, i) => {
                 return <TeamMember employee={employee} id={i} />
             })}
         

@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
+import EditTeam from './EditTeam';
 
 const TeamMember = props => {
-  console.log('Team Player', props)
+  const [teamState, setTeamState] = useState(props.employee)
   return (
     <div>
-      <p>{props.employee.name}</p>
-      <p>{props.employee.email}</p>
-      <p>{props.employee.position}</p>
+      <p>{teamState.name}</p>
+      <p>{teamState.email}</p>
+      <p>{teamState.position}</p>
+      <EditTeam  teamState={teamState} setTeamState={setTeamState} />
     </div>
   )
 }
