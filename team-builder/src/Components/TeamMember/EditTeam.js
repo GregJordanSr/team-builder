@@ -14,20 +14,20 @@ const EditEmployee = props => {
             placeholder="name"
             name="name"
             onChange={changeHandler}
-
             />
             <input 
             type="text"
             value={props.teamState.email}
             placeholder="name"
             name="email"
-
+            onChange={changeHandler}
             />
             <input 
             type="text"
             value={props.teamState.position}
             placeholder="name"
             name="position"
+            onChange={changeHandler}
             />
        
       
